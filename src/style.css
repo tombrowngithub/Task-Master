@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: url("./Background/Backgroundimage.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.main-container{
+    max-width: 660px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    border: black 5px solid;
+    align-items: flex-start;
+    text-align: center;
+    background-color: rgba(2, 3, 24, 0.97);
+}
+
+.main-container h2{
+    color: white;
+}
+.heading{
+    background: aqua;
+}
+.table-heading{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    align-items: flex-start;
+    gap: 5px;
+}
+.item-head{
+    align-self: center;
+    border: white 2px solid;
+    color: white;
+}
+
+.table-data-container{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    gap: 5px;
+    align-items: flex-start;
+}
+.item-data{
+    align-self: center;
+    border: white 2px solid;
+    color: white;
+}
+
+.item-data-update{
+    background-color: darkred;
+    color: white;
+    border: white 2px solid;
+}
+
+.btn-data-container {
+    background: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn-data{
+    border: blue 1px solid;
+
+}
+.btn-data-container .btn{
+    cursor: pointer;
+    color: black;
+}
+.btn-data :hover{
+    background-color: #008b7f;
+}
+.input-update-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.input-area input{
+    width: 100%;
+}
+.btn-update-add-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.btn-add{
+    border: blue 2px solid;
+    background: aqua;
+}
+.btn-add:hover{
+   background-color: #008b7f;
+    cursor: pointer;
+    color: white;
+}
